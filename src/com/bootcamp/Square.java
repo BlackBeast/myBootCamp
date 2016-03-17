@@ -1,11 +1,11 @@
-package com.bootcamp;
-
-import com.bootcamp.exceptions.NonPositiveArgumentException;
-
 /**
  * job of Square:-
  *      perform all methods which implies side of square
  */
+
+package com.bootcamp;
+
+import com.bootcamp.exceptions.NonPositiveArgumentException;
 
 public class Square extends Rectangle {
 
