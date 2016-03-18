@@ -40,25 +40,4 @@ public class Chance {
         return Double.compare(chance.value, value) == 0;
 
     }
-
-
-    //    private double calcutateSampleSpace() {
-//        return Math.pow(possibleOutcomesOfAUnit, noOfUnits);
-//    }
-//
-//
-//    public double chanceOfGetting(double favourableOutcome) {
-//        return favourableOutcome / calcutateSampleSpace();
-//    }
-//
-//    public double negate(double favourableOutcome) {
-//        return 1.0 - chanceOfGetting(favourableOutcome);
-//    }
-//    private double chanceOfGettingOptionFromOneUnit(){
-//      return 1/possibleOutcomesOfAUnit;
-//    };
-//
-//    public double chanceOfAtleastGetting(){
-//        return 1-((1- chanceOfGettingOptionFromOneUnit())*(1- chanceOfGettingOptionFromOneUnit()));
-//    }
 }
