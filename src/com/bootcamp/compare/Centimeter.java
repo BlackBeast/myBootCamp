@@ -2,11 +2,20 @@ package com.bootcamp.compare;/*
  * Job Of 
  */
 
+import com.bootcamp.exceptions.NonPositiveArgumentException;
+
 public class Centimeter implements LengthUnits {
     private double value;
 
-    public Centimeter(double value) {
+    private Centimeter(double value) {
         this.value = value;
+    }
+
+    public static Centimeter create(double value) throws NonPositiveArgumentException {
+        if (value<0)
+            throw new NonPositiveArgumentException(value);
+
+        return new Centimeter(value);
     }
 
 
@@ -16,8 +25,8 @@ public class Centimeter implements LengthUnits {
     }
 
     @Override
-    public Units add(Units another) {
-        return new Inch(convertToStandardUnit()+another.convertToStandardUnit());
+    public Units add(Units another) throws NonPositiveArgumentException {
+        return Inch.create(convertToStandardUnit()+another.convertToStandardUnit());
     }
 
 }

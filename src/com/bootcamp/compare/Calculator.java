@@ -3,6 +3,7 @@ package com.bootcamp.compare;/*
  */
 
 import com.bootcamp.exceptions.InvalidTypesException;
+import com.bootcamp.exceptions.NonPositiveArgumentException;
 
 public class Calculator {
     private final Units unit;
@@ -23,7 +24,7 @@ public class Calculator {
         return unit.convertToStandardUnit() == anotherUnit.convertToStandardUnit();
     }
 
-    public Units add() {
+    public Units add() throws NonPositiveArgumentException {
          return unit.add(anotherUnit);
     }
 
