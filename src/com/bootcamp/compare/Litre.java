@@ -2,7 +2,7 @@ package com.bootcamp.compare;/*
  * Job Of 
  */
 
-public class Litre implements Units{
+public class Litre implements VolumeUnits{
     private double value;
 
     public Litre(double value) {
@@ -12,5 +12,10 @@ public class Litre implements Units{
     @Override
     public double convertToStandardUnit() {
         return value;
+    }
+
+    @Override
+    public Units add(Units another) {
+        return null;
     }
 }

@@ -2,16 +2,12 @@ package com.bootcamp.compare;/*
  * Job Of 
  */
 
-public class Inch implements Units {
+public class Inch implements LengthUnits {
     private double value;
 
     public Inch(double value) {
 
         this.value = value;
-    }
-
-    public Inch add(Inch another) {
-        return new Inch(value + another.value);
     }
 
     @Override
@@ -28,5 +24,15 @@ public class Inch implements Units {
     @Override
     public double convertToStandardUnit() {
         return value;
+    }
+
+    @Override
+    public Units add(Units another) {
+        return new Inch(convertToStandardUnit()+another.convertToStandardUnit());
+    }
+
+    @Override
+    public String toString() {
+        return value+"";
     }
 }

@@ -3,5 +3,6 @@ package com.bootcamp.compare;/*
  */
 
 public interface Units {
-    public double convertToStandardUnit();
+    double convertToStandardUnit();
+    Units add(Units another);
 }
