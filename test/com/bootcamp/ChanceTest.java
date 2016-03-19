@@ -1,5 +1,6 @@
 package com.bootcamp;
 
+import com.bootcamp.chance.Chance;
 import com.bootcamp.exceptions.InValidPropabilityexception;
 import org.junit.Assert;
 import org.junit.Rule;

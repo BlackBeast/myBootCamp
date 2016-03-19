@@ -1,6 +1,7 @@
 package com.bootcamp;
 
 import com.bootcamp.exceptions.NonPositiveArgumentException;
+import com.bootcamp.shapes.Square;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;

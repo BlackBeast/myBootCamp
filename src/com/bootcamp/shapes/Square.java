@@ -3,7 +3,7 @@
  *      perform all methods which implies side of square
  */
 
-package com.bootcamp;
+package com.bootcamp.shapes;
 
 import com.bootcamp.exceptions.NonPositiveArgumentException;
 

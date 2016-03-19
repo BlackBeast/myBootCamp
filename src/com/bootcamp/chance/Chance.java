@@ -1,4 +1,4 @@
-package com.bootcamp;/*
+package com.bootcamp.chance;/*
  * Job Of Chance is to claculate the chance of something happening.
  */
 
