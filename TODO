@@ -1,4 +1,85 @@
-as a student ,
- i want to represent a rectangle , so that i will be able area and perimeter.
- i want to represent a square , so that i will be able area and perimeter.
- i want to represent a chance of getting tails when flipping a coin.
+------------------------Requirements-------------------------------
+
+----------------------------1st Set--------------------------------
+
+1. As a match student ,i want to represent a rectangle ==>
+ - so that i will be able to calculate area and perimeter.
+
+2. As a math student, I want to represent a square
+  - so that i can calculate its area and perimeter
+
+----------------------------2nd Set--------------------------------
+
+3. As a math student,
+ I want to represent a chance of getting tails
+ when flipping a coin.
+
+4. As a math student,
+ I want to represent a chance of NOT getting tails
+ when flipping a coin.
+
+5. As a math student,
+  I want to represent a chance of getting tails
+  when flipping two coins.
+
+6. As a math student,
+  I want to represent a chance of getting at least one tails
+  when flipping two coins.
+
+7. De morgans law
+    p(A||B) = !(!p(A)&& !p(B))
+
+----------------------------3rd Set--------------------------------
+
+8. As a math student,
+    I wish to compare lengths in feet and inches.
+    1ft = 12in
+
+8. As a math student,
+    I wish to compare lengths in inches and cm.
+    2in = 5cm
+
+9. As a math student,
+    I wish to compare lengths in cm and mm.
+    1cm = 10mm
+
+10. As a math student,
+    I wish to compare volumes in liter and gallon.
+    1 gallon = 3.78 liters
+
+11. As a math student,
+    I want to able to add two lengths in inches.
+    2in + 2 in = 4in
+
+12. As a math student,
+    I want to able to add two lengths in any unit and the standard outputs in inches
+
+13. As a math student(not a good one),
+    I want to able to volumes and lengths
+
+    1 gallon = 1 inch
+
+14. As a math student,
+    I want to able to add two volumes in any unit and the standard outputs in liters.
+
+    1 gallon + 1 liters = 4.78 ltrs
+
+Measurement types
+
+* State or Nominal - Only equality comparison(Blood type)
+* Ordered or Ordinal - All comparisons(Rank)
+* Scaled or Interval - Differences(Temperature,Pressure)
+* Arithmetic or Ratio - Mathematical Operations(Volume,Length)
+----------------------------4th Set--------------------------------
+
+The kingdom of Balloria is known for its wizards and their colorful
+magic colorOfBalls. These colorOfBalls are very powerful and have to be stored,
+safely when not in use.
+
+15. As a provider of a service that lets wizards store their colorOfBalls
+    I'd like a bag that can hold a maximum of 12 colorOfBalls.
+
+16. As a provider of a service that lets wizards store their colorOfBalls
+I'd like a bag that allows a wizard to only put ina
+
+17.

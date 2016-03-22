@@ -1,4 +1,4 @@
-package com.bootcamp;
+package com.bootcamp.chance;
 
 import com.bootcamp.chance.Chance;
 import com.bootcamp.exceptions.InValidPropabilityexception;
